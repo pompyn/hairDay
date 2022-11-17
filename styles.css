@@ -1,0 +1,35 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows:auto;
+  
+  background-color: black;
+  /* width: 100%;
+  height: 100%; */
+
+}
+.logo{
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+.navlink1, .navlink2, .navlink3{
+  width: 33.3%;
+}
+
+#main{
+  color:bisque;
+
+}
+article{
+  display: grid;
+  align-items: left;
+  grid-template-columns: 2fr;
+
+}
+
+.footer{
+  display: grid;
+
+  grid-template-columns: 2fr 1fr;
+}
